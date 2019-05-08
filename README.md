@@ -1,6 +1,6 @@
 # Light
 
-A lamp for creating dynamic lighting in hospitals patient rooms to administer chroma-therapy for improving comfort of patients going through chemotherapy or recovering from surgery and being able as care givers to serve them better.
+A Simple Wall lamp for creating dynamic lighting in hospitals patient rooms to administer chroma-therapy for improving comfort of patients going through chemotherapy or recovering from surgery and being able as care givers to serve them better.
 
 ## Personal History
 
@@ -9,6 +9,10 @@ I have always being interested in physiotherapy for patients in hospitals and fi
 ## Background
 
 The device is a machine that changes the lighting of a room based on what the occupants of the room need. This type of Chromotherapy has been in existence since 2000 BCE when the Egyptians and hemetican Greeks had treatment sanctuaries with rooms of different colors which had different healing qualities [1](https://www.naturalnews.com/036483_light_therapy_health_science.html). Of late, modern studies reported by the New York times and even MIT’s Richard J.Wurtman has shown that individual colors can treat premature babies of jaundice (30,000 children are treated each year instead of having dangerous blood transfusions), prevent black lung disease, improve work ability and even reduce aggression in violent juveniles [2](https://www.naturalnews.com/036483_light_therapy_health_science.html). 
+
+## Design Side Note
+
+The lamp was made using a wooden box painted white with a 3D printed geometric dog I designed. The lamp was meant to be minimalist but aesthetically pleasing and the 3D image can be anything depending on the preference of the user. IT just creates something nice to look at.
 
 ## Prerequisites
 
@@ -48,8 +52,22 @@ sudo apt-get install rpi.gpio
 
 **Finding Sunfounder modules**
 
-These can be located
+These can be located on the (sunfounder tutorial website)[https://www.sunfounder.com/learn/category/sensor-kit-v2-0-for-raspberry-pi-b-plus.html]. Download the (sensor kit zip file)[https://www.sunfounder.com/learn/download/U2Vuc29yX0tpdF9WMi4wX2Zvcl9CX19SUGkyX2FuZF9SUGkzXy56aXA=/dispa] that has example python scripts and modules for running any important components incase you are interested.
 
+I only used the LCD1602 module and you can find this in my src file and can copy and paste it to wherever you need to use it.
+
+## Running without hardware:
+
+If you simply want to run the script without the hardware and see the GUI and the tkinter widgets, you can comment out the import modules at the top of the script relating to the GPIO and LCD1602 modules.
+
+```
+#import RPi.GPIO as GPIO  - comment out using a hashtag
+import time
+
+#import LCD1602 - comment out using a hashtag
+```
+
+The full GUI should look like this:
 
 
 
