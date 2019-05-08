@@ -4,6 +4,8 @@ A Simple Wall lamp for creating dynamic lighting in hospitals patient rooms to a
 
 ![Full Wall Light Prototype. Emits light from the top](main.jpg)
 
+
+
 ## Personal History
 
 I have always being interested in physiotherapy for patients in hospitals and finding ways to improve their mood and mental health. This is because encouraging patients to have a positive outlook is important for [serving them while they recover](https://www.nytimes.com/2017/03/27/well/live/positive-thinking-may-improve-health-and-extend-life.html). My mom is a physician and I wanted to think of interesting uses of technology to serve caregivers and patients by using light of different wavelengths to create positivie effects in the hospitals.
@@ -14,7 +16,13 @@ The device is a machine that changes the lighting of a room based on what the oc
 
 ## Design Side Note
 
-The lamp was made using a wooden box painted white with a 3D printed geometric dog I designed. The lamp was meant to be minimalist but aesthetically pleasing and the 3D image can be anything depending on the preference of the user. IT just creates something nice to look at.
+The lamp was made using a wooden box painted white with a 3D printed geometric dog I designed. The lamp was meant to be minimalist but aesthetically pleasing and the 3D image can be anything depending on the preference of the user. IT just creates something nice to look at. 
+
+When I was prototyping, I placed the components haphazardly to do quick test runs. The picture below shows my rough set up while getting things ready.
+
+![Prototype Opened and Showing the Pi and modules in the back.](back.jpg)
+
+
 
 ## Prerequisites
 
@@ -70,6 +78,18 @@ If you simply want to run the script without the hardware and see the GUI and th
 
 The full GUI should look like this:
 
+![Main Menu, With Music Playing](Slide01.png)
+
+![Settings Page](unnamed.jpg)
+
+The Color Info Pages with information on the uses of each wavelength should look like this:
+
+![](Slide03.png)
+![](Slide04.png)
+![](Slide05.png)
+![](Slide06.png)
+![](Slide07.png)
+![](Slide08.png)
 
 
 
