@@ -2,6 +2,8 @@
 
 A Simple Wall lamp for creating dynamic lighting in hospitals patient rooms to administer chroma-therapy for improving comfort of patients going through chemotherapy or recovering from surgery and being able as care givers to serve them better.
 
+![Full Wall Light Prototype. Emits light from the top](https://photos.app.goo.gl/oiSVbiHgZpHfvMgY8)
+
 ## Personal History
 
 I have always being interested in physiotherapy for patients in hospitals and finding ways to improve their mood and mental health. This is because encouraging patients to have a positive outlook is important for [serving them while they recover](https://www.nytimes.com/2017/03/27/well/live/positive-thinking-may-improve-health-and-extend-life.html). My mom is a physician and I wanted to think of interesting uses of technology to serve caregivers and patients by using light of different wavelengths to create positivie effects in the hospitals.
@@ -62,7 +64,6 @@ If you simply want to run the script without the hardware and see the GUI and th
 
 ```
 #import RPi.GPIO as GPIO  - comment out using a hashtag
-import time
 
 #import LCD1602 - comment out using a hashtag
 ```
