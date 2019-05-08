@@ -2,7 +2,7 @@
 
 A Simple Wall lamp for creating dynamic lighting in hospitals patient rooms to administer chroma-therapy for improving comfort of patients going through chemotherapy or recovering from surgery and being able as care givers to serve them better.
 
-![Full Wall Light Prototype. Emits light from the top](Photo on 5-7-19 at 12.20 AM #2.jpg)
+![Full Wall Light Prototype. Emits light from the top](main.jpg)
 
 ## Personal History
 
